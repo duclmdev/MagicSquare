@@ -129,11 +129,12 @@ public final class MagicSquare extends Square {
     }
 
     private int constant() {
-        int constant = 0;
-        for (int i = 0; i < n; i++) {
-            constant += a[i][i];
-        }
-        return constant;
+//         int constant = 0;
+//         for (int i = 0; i < n; i++) {
+//             constant += a[i][i];
+//         }
+//         return constant;
+        return (n * n * n + n) / 2;
     }
 
 
