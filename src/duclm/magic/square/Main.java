@@ -6,7 +6,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         int n = 10 + new Random().nextInt(90);
-        n = 16;
+        //n = 16;
         System.out.println("n = " + n);
 
         try {
